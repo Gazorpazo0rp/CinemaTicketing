@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+.App {
+  text-align: center;
+  font-family: Cairo;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.homeCover img{
+  width:100%;
+  max-height: 585px;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.homeCover{
+  position:relative;
+
+}
+#slogan{
+  color:white;
+  position:absolute;
+  top:80px;
+  width:100%;
+  
+}
+#title{
+font-size:64px;
+}
+.homeCover button{
+  background-color: rgb(30, 30, 99);
+  color:white;
+  position:absolute;
+  bottom:50px;
+  width:20%;
+  opacity: 0.8;
+  left:40%;
+  z-index: 100;
+  transition: all .3s ease;
+}
+.homeCover button:hover{
+  opacity: 0.9;
+  color:white;
+}
+nav{
+  background-color: rgb(17, 15, 15)!important;
+  z-index:100;
+
+}
+.nav-link:hover{
+  color:rgb(243, 208, 9)!important;
+}
+/* .homeNav{
+  z-index:1000;
+  background-color: rgba(255, 255, 255, 0)!important;
+} */
+
+.nav-link{
+  color:rgb(247, 243, 243)!important;
+  font-size:22px;
+  padding-top:0px!important;
+
+}
+.nav-link .active{
+  color:rgb(243, 208, 9);
+}
+
+#homePage{
+  position:relative;
+  top:-60px;
+}
+#navbarText button{
+  color:rgb(30, 30, 99);
+  background-color: aliceblue;
+  
+}
+#howItWorks{
+  padding-top:40px;
+}
+#howItWorks hr{
+  width:60%;
+}
+ .formDiv{
+  left:10%;
+  width:30%;
+  border:1px solid rgba(128, 128, 128, 0.342);
+  border-radius:3px;
+  padding:5%;
+  position:absolute;
+  padding-top:50px;
+  margin-top:50px;
+}
+#auth{
+  position:relative;
+}
+#loginForm{
+  left:60%!important;
+}
+.flexBoxContainer{
+  display:flex;
+}
+
+.moviesContainer{
+  margin-top:50px;
+}
+
+.moviesRow{
+  height:300px;
+}
+.moviePoster{
+  transition:all .5s ease;
+  max-height:250px;
+  position:relative;
+  width:15%;
+  margin-left:20px;
+}
+.moviePoster img{
+  transition:all .5s ease;
+  height:250px;
+  border-radius: 3px;
+  max-width: 100%;
+  cursor:pointer;
+}
+.moviePosterHover{
+  transition:all .5s ease;
+  width:25%;
+}
+.moviePosterHover img{
+  transition:all .5s ease;
+  height:270px;
+}
+#MoviePage{
+  padding-top:30px;
+  width:98%;
+
+}
+.banner{
+  height:450px;
+  position:relative;
+}
+.banner img{
+  height:450px;
+  position:absolute;
+  left:40px;
+}
+.movieData{
+  text-align: left;
+}
+.movieData hr{
+  width:60%;
+  margin-left:0%;
+}
+
+#reservation{
+  margin-top:40px;
+  padding-top:30px;
+}
+#reservation h1{
+text-align: center;
+}
+#reservation hr{
+  width:40%;
+}
+#addScreenForm{
+  left:60%;
+}
+#addScreening{
+  top:500px;
+}
+#addScreening{
+  margin-bottom:50px;
+}
+#reservation .formDiv{
+  margin-bottom:50px;
+  margin-left:50px;
+  left:0px;
+}
+.seat{
+  
+  background-color: rgb(126, 121, 121);
+  border-radius:2px;
+  cursor:pointer;
+  margin:2px;
+  font-size:7px;
+  text-align:left;
+  padding-left:2px; 
+}
+.takenSeat{
+  border-radius:2px;
+  font-size:7px;
+  text-align:left;
+  padding-left:2px; 
+  cursor:pointer;
+  margin:2px;
+  background-color: rgba(122, 19, 19, 0.774);
+
+}
+.seat:hover{
+  background-color: rgba(77, 77, 75, 0.945);
+}
+.seatsContainer{
+  border:0px;
+}
+.pickedSeat{
+  background-color: rgb(20, 139, 30);
+  font-size:7px;
+  text-align:left;
+  padding-left:2px; 
+}
